@@ -105,6 +105,3 @@ fun ex5at1(arr: IntArray, pos: Int = 0): Int {
         arr[pos] + ex5at1(arr, pos + 1)
     }
 }
-
-
-//7 - Como posso usar uma função de ordem superior para imprimir uma mensagem n vezes em Kotlin?
